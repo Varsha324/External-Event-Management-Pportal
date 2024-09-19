@@ -1,0 +1,74 @@
+ .main-content {
+    flex-grow: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+ 
+  .title {
+    font-size: 24px;
+    margin: 0;
+  }
+ 
+  .create-button {
+    background-color: #7bbdc3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .create-button:hover {
+    background-color: #6aa8b1;
+  }
+ 
+  .registration-table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    border-collapse: collapse;
+  }
+ 
+  .registration-table th,
+  .registration-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  .registration-table th {
+    background-color: #01a9b4;
+    color: white;
+  }
+ 
+  .status {
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+  }
+ 
+  .status.initiated {
+    background-color: #d1db48;
+  }
+ 
+  .status.rejected {
+    background-color: #e94c4c;
+  }
+ 
+  .status.approved {
+    background-color: #4cae4c;
+  }
+ 

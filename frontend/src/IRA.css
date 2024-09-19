@@ -1,0 +1,99 @@
+
+.main-content {
+    flex-grow: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    flex: 1;
+    padding: 40px 140px;
+    background-color: #e6f5f7;
+}
+
+.registration-form h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #00a3d1;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-group input:first-child {
+    margin-right: 2%;
+}
+
+
+.form-group select {
+    width: 48%; 
+    padding: 10px;
+    border: 1px solid #00a3d1;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.form-group select:first-child {
+    margin-right: 2%; 
+}
+
+button {
+    width: 100% !important;
+    padding: 15px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    background-color: #00a3d1 !important; 
+    color: white !important;              
+    cursor: pointer !important;
+    visibility: visible !important;      
+    opacity: 1 !important;               
+    text-align: center !important;       
+}
+
+button:hover {
+    background-color: #008cb5 !important; 
+}
+
+.location-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-group input {
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.location-group input:nth-child(2) {
+    margin-right: 2%;
+}
