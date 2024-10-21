@@ -10,7 +10,8 @@ import Result from './Result';
 import Dashboard from './Dashboard';
 import Eventapproval from './Eventapproval';
 import Status from './Status';
-
+import Rejected from './Rejected';
+import Faculties from './Faculties';
 
 function App() {
   return (
@@ -20,13 +21,14 @@ function App() {
         <Route path="/board" element={<Board />} />
         <Route path="/events" element={<Events />} /> 
          <Route path="/approved" element={<Approved />} /> 
+         <Route path="/rejected" element={<Rejected />} /> 
          <Route path="/result" element={<Result />} /> 
         <Route path="/registrationform" element={<RegistrationForm />} /> 
         <Route path="/ira" element={<IRA />} /> 
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/external-events" element={<Eventapproval />} />
         <Route path="/ira-status" element={<Status />} />
- 
+        <Route path="/faculties" element={<Faculties />} />
       </Routes>
     </Router>
   );

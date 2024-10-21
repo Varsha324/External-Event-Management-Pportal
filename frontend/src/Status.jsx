@@ -18,15 +18,17 @@ const Status = () => {
                     <div className="menu-item" onClick={() => navigate('/dashboard')}>DASHBOARD</div>
                     <div className="menu-item" onClick={() => navigate('/external-events')}>EXTERNAL EVENTS</div>
                     <div className="menu-item" onClick={() => navigate('/ira-status')}>IRA STATUS</div>
+                    <div className="dashboard-menu-item" onClick={() => navigate("/faculties")}>FACULTIES </div>
                     <div className="dashboard-menu-item" onClick={() => navigate('/')}>LOGOUT</div>
                 </aside>
 
         
-           <main className="main-content">
+           <main className="status-main-content">
                     <header>
                         <h1>IRA STATUS</h1>
+                        
                     </header>
-                    <div className="table-container">
+                    <div className="status-table-container">
                         <table>
                             <thead>
                                 <tr>

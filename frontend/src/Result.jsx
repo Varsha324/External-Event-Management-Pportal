@@ -29,7 +29,8 @@ const Result = () => {
             <div className="submenu">
              <div className="submenu-item" onClick={() => navigate('/events')}>EVENTS</div>
              <div className="submenu-item" onClick={() => navigate('/registrationform')}>REGISTRATION</div>
-              <div className="submenu-item" onClick={() => navigate('/approved')}>LIST OF APPROVED & REJECTED EVENTS</div>
+             <div className="submenu-item" onClick={() => navigate('/approved')}>APPROVED EVENTS</div>
+             <div className="submenu-item" onClick={() => navigate('/rejected')}>REJECTED EVENTS</div>
             </div>
           )}
           <div className="menu-item" onClick={() => navigate('/ira')}>IRA REGISTRATION</div>
@@ -38,11 +39,11 @@ const Result = () => {
         </aside>
 
         {/* Main Content */}
-        <main className="main-content">
+        <main className="result-main-content">
           <div className="header">
             <h2 className="title">RESULT</h2>
           </div>
-          <table className="registration-table">
+          <table className="result-registration-table">
             <thead>
               <tr>
                 <th>ROLL NUMBER</th>

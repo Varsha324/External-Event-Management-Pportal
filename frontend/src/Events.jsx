@@ -28,7 +28,8 @@ const Events = () => {
                         <div className="submenu">
                             <div className="submenu-item" onClick={() => navigate('/events')}>EVENTS</div>
                             <div className="submenu-item" onClick={() => navigate('/registrationform')}>REGISTRATION</div>
-                            <div className="submenu-item" onClick={() => navigate('/approved')}>LIST OF APPROVED & REJECTED EVENTS</div>
+                            <div className="submenu-item" onClick={() => navigate('/approved')}>APPROVED EVENTS</div>
+                            <div className="submenu-item" onClick={() => navigate('/rejected')}>REJECTED EVENTS</div>
                         </div>
                     )}
                     <div className="menu-item" onClick={() => navigate('/ira')}>IRA REGISTRATION</div>
@@ -37,7 +38,7 @@ const Events = () => {
                 </aside>
 
                 
-                <main className="main-content">
+                <main className="events-main-content">
                     <div className="header">
                         <h2 className="title">REGISTRATION</h2>
                       

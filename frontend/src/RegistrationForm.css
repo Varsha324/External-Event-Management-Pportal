@@ -1,4 +1,4 @@
-.main-content {
+.registeration.main-content {
   flex-grow: 1;
   background-color: #f0f0f0;
   padding: 20px;
@@ -55,7 +55,7 @@ button {
   padding: 15px;
   border: none;
   border-radius: 5px;
-  background-color: #00a3d1; 
+  background-color: #00a3d1;
   color: white;
   font-size: 16px;
   cursor: pointer;

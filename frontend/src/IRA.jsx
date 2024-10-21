@@ -64,7 +64,8 @@ const IRA = () => {
                         <div className="submenu">
                              <div className="submenu-item" onClick={() => navigate('/events')}>EVENTS</div>
                              <div className="submenu-item" onClick={() => navigate('/registrationform')}>REGISTRATION</div>
-                            <div className="submenu-item" onClick={() => navigate('/approved')}>LIST OF APPROVED & REJECTED EVENTS</div>
+                             <div className="submenu-item" onClick={() => navigate('/approved')}>APPROVED EVENTS</div>
+                            <div className="submenu-item" onClick={() => navigate('/rejected')}>REJECTED EVENTS</div>
                         </div>
                     )}
                     <div className="menu-item" onClick={() => navigate('/ira')}>IRA REGISTRATION</div>
@@ -73,18 +74,18 @@ const IRA = () => {
                 </aside>
 
                 
-                <div className="registration-form">
+                <div className="ira-registration-form">
                     <h2>REGISTRATION FORM</h2>
                     <form>
-                        <div className="form-group">
+                        <div className="ira-form-group">
                             <input type="text" placeholder="NAME" />
                             <input type="text" placeholder="ROLL NUMBER" />
                         </div>
-                        <div className="form-group">
+                        <div className="ira-form-group">
                             <input type="text" placeholder="TEAM OR INDIVIDUAL" />
                             <input type="text" placeholder="PS STATUS" />
                         </div>
-                        <div className="form-group">
+                        <div className="ira-form-group">
                             <select onChange={handleEventChange} value={selectedEvent}>
                                 <option value="" disabled>Select Category</option>
                                 <option value="category1">Category 1</option>
@@ -108,7 +109,7 @@ const IRA = () => {
                             </select>
                         </div>
                         {availableTimes.length > 0 && (
-                            <div className="form-group">
+                            <div className="ira-form-group">
                                 <select>
                                     <option value="" disabled>Select Time</option>
                                     {availableTimes.map((time, index) => (

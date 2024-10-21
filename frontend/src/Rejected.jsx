@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Board.css";
+import "./Rejected.css";
 
-const Board = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+const Rejected = () => {
   const navigate = useNavigate();
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -59,36 +59,42 @@ const Board = () => {
             LOGOUT
           </div>
         </aside>
-
-        <main className="board-main-content">
-          <header>
-            <h1>WELCOME BACK VARSHA K !!</h1>
-          </header>
-          <section className="rules">
-            <h2>SPECIAL LAB RULES AND REGULATIONS :</h2>
-            <ul>
-              <li>
-                All the students are expected to follow the dress code
-                accordingly.
-              </li>
-              <li>
-                Must register for IRA assessment for the events which are under
-                category 1, 2, 3.
-              </li>
-              <li>
-                Students can fill the request form for the events which they are
-                aware of.
-              </li>
-              <li>
-                All the students are expected to complete their SSIG target
-                within the given period of time.
-              </li>
-            </ul>
-          </section>
-        </main>
+        <div className="rejected-content-area">
+          <h1>REJECTED EVENTS</h1>
+          <table className="rejected-table">
+            <thead>
+              <tr>
+                <th>CODE</th>
+                <th>REJECTED EVENTS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr key="RBIT01">
+                <td>RBIT01</td>
+                <td>GALAXY</td>
+              </tr>
+              <tr key="RBIT02">
+                <td>RBIT02</td>
+                <td>MEDXPERIA</td>
+              </tr>
+              <tr key="RBIT03">
+                <td>RBIT03</td>
+                <td>FACTURERZ</td>
+              </tr>
+              <tr key="RBIT04">
+                <td>RBIT04</td>
+                <td>FORSCH'24</td>
+              </tr>
+              <tr key="RBIT05">
+                <td>RBIT05</td>
+                <td>KARIYA</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Board;
+export default Rejected;

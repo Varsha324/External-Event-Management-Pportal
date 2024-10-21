@@ -1,0 +1,100 @@
+/* Faculties.css */
+.faculties-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .faculties-header-bar {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .faculties-portal-title {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+  }
+  
+  .faculties-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .faculties-sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .faculties-menu-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #444;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faculties-menu-item:hover {
+    background-color: #555;
+  }
+  
+  .faculties-dashboard-menu-item {
+    margin-top: auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ff4d4d;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faculties-dashboard-menu-item:hover {
+    background-color: #ff3333;
+  }
+  
+  .faculties-main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .faculties-main-content table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faculties-main-content th,
+  .faculties-main-content td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .faculties-main-content th {
+    background-color: #66d0e1;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .faculties-main-content td {
+    background-color: #f2f2f2;
+    font-size: 16px;
+  }
+  
+  .faculties-main-content td:nth-child(odd) {
+    background-color: #e6e6e6;
+  }
+  

@@ -1,5 +1,5 @@
 
-.main-content {
+.status-main-content {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -20,7 +20,7 @@ header h1 {
     color: #333;
 }
 
-.table-container {
+.status-table-container {
     width: 100%;
     overflow-x: auto;
 }
